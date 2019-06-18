@@ -19,10 +19,12 @@ enter the FULL (no ~) directory for your google chrome Bookmars JSON file
 
 enter the flavor of google chrome you installed or want this application to use
 ex.) google-chome, google-chrome-stable, chromium
+
 How to Use
 ============
 
 SYNOPSIS
+
 book [FLAG] [QUERY]
 
 **FLAGS**
