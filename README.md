@@ -23,10 +23,10 @@ ex.) google-chome, google-chrome-stable, chromium
 How to Use
 ============
 
-SYNOPSIS
+**SYNOPSIS**
 
 book [OPTION] [QUERY]
-
+<br />
 **OPTIONS**
 * **-f** : find a bookmark by folder name
 
