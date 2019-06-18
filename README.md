@@ -1,12 +1,13 @@
-Dependencies
-============
-* google chrome
-* node js
 
 chrome-bookmarks 1.0.0
 ============
 
 chrome-bookmarks is a shell application for accessing your google chrome bookmarks by searching for them through different options 
+
+Dependencies
+============
+* google chrome
+* node js
 
 Installation
 ============
