@@ -39,7 +39,7 @@ search for any bookmark that that has "javscript" anywhere in the name field:
   $ book -s javascript
 ```
 
-find a bookmark that is located in folder named shell:
+find a bookmark that is located in folder named "shell":
 
 ```
   book -f shell
