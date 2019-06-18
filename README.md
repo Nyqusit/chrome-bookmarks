@@ -42,5 +42,5 @@ search for any bookmark that that has "javscript" anywhere in the name field:
 find a bookmark that is located in folder named "shell":
 
 ```
-  book -f shell
+  $ book -f shell
 ```
