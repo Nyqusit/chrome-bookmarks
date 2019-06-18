@@ -14,7 +14,7 @@ run the make.sh shell script
 ```
 ./make.sh
 ```
-enter the FULL directory for your google chrome Bookmars JSON file, make sure there is no ~ in location <br />
+enter the FULL directory for your google chrome Bookmarks JSON file, make sure there is no ~ in location <br />
 (usually located in /home/*usrname*/.config/google-chrome/Default/Bookmarks)
 
 enter the flavor of google chrome you installed or want this application to use <br />
@@ -25,9 +25,9 @@ How to Use
 
 SYNOPSIS
 
-book [FLAG] [QUERY]
+book [OPTION] [QUERY]
 
-**FLAGS**
+**OPTIONS**
 * **-f** : find a bookmark by folder name
 
 * **-s** : find a bookmark by a url description from the name element in your Bookmarks JSON file, your bookmarks file can be edited for more accurate results
