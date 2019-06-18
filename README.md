@@ -34,7 +34,7 @@ book [OPTION] [QUERY]
 
 **Examples** <br />
 
-search for any bookmark that that has "javscript" anywhere in the name field:
+search for any bookmark that has "javscript" anywhere in the name field:
 ```sh
   $ book -s javascript
 ```
