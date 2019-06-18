@@ -33,6 +33,7 @@ book [OPTION] [QUERY]
 * **-s** : find a bookmark by a url description from the name element in your Bookmarks JSON file, your Bookmarks file can be edited for more accurate results
 
 **Examples** <br />
+
 search for any bookmark that that has "javscript" anywhere in the name field:
 ```
   $ book -s javascript
