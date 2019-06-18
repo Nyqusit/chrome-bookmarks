@@ -1,0 +1,11 @@
+{
+  "name": "findbookmark",
+  "version": "1.0.0",
+  "description": "goto chrome bookmarks from terminal",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Larsen",
+  "license": "ISC"
+}

@@ -1,0 +1,60 @@
+const fs = require('fs');
+
+let Chrome_Bookmarks = {};
+let index = -1;
+let output = '';
+
+fs.readFile('%chrome bookmark directory%', 'utf8', (err, file) => {
+    fs.readFile('query', 'utf8', (err, query) => {
+
+        let arg = query.split(/\n/g);
+        Chrome_Bookmarks = JSON.parse(file);
+        let Bookmarks = Chrome_Bookmarks.roots.bookmark_bar.children;
+
+        Bookmarks.forEach(bookmark => {
+            if(bookmark.children){
+                bookmark.children.forEach(parent => {
+
+                    if(arg[0] === "-s"){
+                        Object.entries(parent).forEach(entry => {
+
+                            query = arg[1].trim();
+                            let regex = new RegExp(`.${query}.`,'gi');
+
+                            if(regex.test(entry[1])){
+                                index++;
+                                let name = parent.name.split(/ - /g);
+                                console.log(name[0],"\n",index, parent.url)
+                                output += `${index} ${parent.url}\n`
+                            }
+                        })
+                    }
+
+                    if(arg[0] === "-f"){
+                        if(bookmark.name === arg[1]){
+                            if(!arg[2]){
+                                if(parent.type === "url"){
+                                    index++;
+                                    let name = parent.name.split(/ - /g);
+                                    console.log(name[0],"\n", index, parent.url);
+                                    output += `${index} ${parent.url}\n`;
+                                }
+                            }else if(parent.type === "folder" && parent.name === arg[2]){
+                                parent.children.forEach(child => {
+                                    index++;
+                                    let name = child.name.split(/ - /g);
+                                    console.log("folder: ","\n", name, index, child.url)
+                                    output += `${index} ${child.url}\n`;
+                                })
+                            }
+                        }
+                    }
+
+                    fs.writeFile('results', output, err => {
+                        if(err) console.log(err);
+                    })
+                })
+            }
+        })
+    })
+})

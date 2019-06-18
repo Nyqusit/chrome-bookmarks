@@ -1,0 +1,21 @@
+#!/bin/sh
+
+cd /etc/chrome-bookmarks
+
+echo $1 >  query
+echo $2 >> query
+echo $3 >> query
+
+while true;
+do
+    echo -e "\e[39m"
+    sudo node main
+    echo -n -e "\e[33murl index: \e[39m"
+    read url_idx
+    url=$(sudo cat results | grep "^$url_idx" | sed 's/^'$url_idx' //g')
+    echo -e "\e[39m$url"
+    %chrome flavor% $url
+done
+
+
+
