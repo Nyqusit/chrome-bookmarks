@@ -1,3 +1,8 @@
+Requirements
+============
+* google chrome
+* node js
+
 chrome-bookmarks 1.0.0
 ============
 
