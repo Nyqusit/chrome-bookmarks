@@ -31,6 +31,8 @@ book [OPTION] [QUERY] <br /> <br />
 
 * **-s** : find a bookmark by a url description from the name element in your Bookmarks JSON file, your Bookmarks file can be edited for more accurate results
 
+once a list of urls appear you can type in the index for the url you want to go to. the url should now appear in the flavor of google chrome your chose
+
 **Examples** <br />
 
 search for any bookmark that has "javscript" anywhere in the name field:
