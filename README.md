@@ -5,12 +5,26 @@ chrome-bookmarks is a shell application for accessing your google chrome bookmar
 
 Installation
 ============
-clone this repository anywhere you desire
+clone this repository anywhere you desire:
 ```
 git clone https://github.com/Nyqusit/chrome-bookmarks.git
 ```
+
+run the make.sh shell script
+```
+./make.sh
+```
+enter the FULL (no ~) directory for your google chrome Bookmars JSON file
+(usually located in /home/*usrname*/.config/google-chrome/Default/Bookmarks)
+
+enter the flavor of google chrome you installed or want this application to use
+ex.) google-chome, google-chrome-stable, chromium
 How to Use
 ============
+
+SYNOPSIS
+book [FLAG] [QUERY]
+
 **FLAGS**
 * **-f** : find a bookmark by folder name
 
