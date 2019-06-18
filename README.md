@@ -1,4 +1,4 @@
-Requirements
+Dependencies
 ============
 * google chrome
 * node js
