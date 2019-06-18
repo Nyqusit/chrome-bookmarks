@@ -14,7 +14,7 @@ run the make.sh shell script
 ```
 ./make.sh
 ```
-enter the FULL (no ~) directory for your google chrome Bookmars JSON file <br />
+enter the FULL directory for your google chrome Bookmars JSON file, make sure there is no ~ in location <br />
 (usually located in /home/*usrname*/.config/google-chrome/Default/Bookmarks)
 
 enter the flavor of google chrome you installed or want this application to use <br />
