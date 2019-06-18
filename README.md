@@ -30,5 +30,5 @@ book [OPTION] [QUERY]
 **OPTIONS**
 * **-f** : find a bookmark by folder name
 
-* **-s** : find a bookmark by a url description from the name element in your Bookmarks JSON file, your bookmarks file can be edited for more accurate results
+* **-s** : find a bookmark by a url description from the name element in your Bookmarks JSON file, your Bookmarks file can be edited for more accurate results
 
