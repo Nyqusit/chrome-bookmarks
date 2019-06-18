@@ -6,12 +6,12 @@ chrome-bookmarks is a shell application for accessing your google chrome bookmar
 Installation
 ============
 clone this repository anywhere you desire:
-```
+```shell
 $ git clone https://github.com/Nyqusit/chrome-bookmarks.git
 ```
 
 run the make.sh shell script
-```
+```shell
 $ ./make.sh
 ```
 enter the FULL directory for your google chrome Bookmarks JSON file, make sure there is no '~' in the location <br />
@@ -35,12 +35,12 @@ book [OPTION] [QUERY]
 **Examples** <br />
 
 search for any bookmark that that has "javscript" anywhere in the name field:
-```
+```shell
   $ book -s javascript
 ```
 
 find a bookmark that is located in folder named "shell":
 
-```
+```shell
   $ book -f shell
 ```
