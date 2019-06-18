@@ -7,12 +7,12 @@ Installation
 ============
 clone this repository anywhere you desire:
 ```
-git clone https://github.com/Nyqusit/chrome-bookmarks.git
+$ git clone https://github.com/Nyqusit/chrome-bookmarks.git
 ```
 
 run the make.sh shell script
 ```
-./make.sh
+$ ./make.sh
 ```
 enter the FULL directory for your google chrome Bookmarks JSON file, make sure there is no '~' in the location <br />
 (usually located in /home/*usrname*/.config/google-chrome/Default/Bookmarks)
