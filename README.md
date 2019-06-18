@@ -25,8 +25,7 @@ How to Use
 
 **SYNOPSIS**
 
-book [OPTION] [QUERY]
-<br />
+book [OPTION] [QUERY] <br /> <br />
 **OPTIONS**
 * **-f** : find a bookmark by folder name
 
